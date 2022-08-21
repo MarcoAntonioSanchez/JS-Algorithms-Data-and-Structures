@@ -481,3 +481,15 @@ The value 10 would be displayed in the console.
 Note that the space carachter between "Alan and "Peter"
 is also counted.
 */
+
+// USE BRACKET NOTATION TO FIND THE FIRST CHARACTER IN A STRING
+
+/*
+Bracket notation is a way to get a carachter at a specific index within a string.
+Most modern programming lenguages, like JavaScript, don't start counting at 1
+like humans do. They start at 0. This is referred to as Zero-based indexing.
+*/
+
+const firstName = "Marco";
+const firstLetter = firstName[0];
+console.log(firstLetter);
