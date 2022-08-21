@@ -548,3 +548,26 @@ last character in a string to retrieve the nth-to-last character.
 const firstName4 = "Marco";
 const thirdToLastLetter = firstName4[firstName4.length - 3];
 console.log(thirdToLastLetter);
+
+// WORD BLANKS
+
+/*
+You are provided sentences with some missing words, line nouns, verbs,
+adjectives and adverbs. You then fill in the missing places
+with words of your choice in a way that the compelted sentence makes sense.
+
+Consider this sentence - It was really ____, and we ____ ourselves ____. This sentence
+has three missing pieces - an adjective, a verb and an adverb, and we can
+add words of our choice to complete it. We can then assign the compelted
+sentence to a variable as follows:
+*/
+
+const sentence2 =
+  "It was really " +
+  "hot" +
+  ", and we " +
+  "laughed" +
+  " ourselves " +
+  "silly" +
+  ".";
+console.log(sentence2);
