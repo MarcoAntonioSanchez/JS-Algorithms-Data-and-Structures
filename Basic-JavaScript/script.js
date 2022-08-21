@@ -625,3 +625,31 @@ For example:
 const ourArray = [50, 40, 30];
 ourArray[0] = 15;
 console.log(ourArray);
+
+// ACCESS MULTI-DIMENSIONAL ARRAYS WITH INDEXES
+
+/*
+One way to think of a multi-dimensional array, is as an array of arrays.
+When you use brackets to access you array, the first set of brackets
+refers to the entries in the outer-most (the first level) array,
+and each additional pair of brackets refers to the next level of entries inside.
+For example:
+
+const arr = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14]
+];
+
+const subarray = arr[3];
+const nestedSubarray = arr[3][0];
+const element = arr[3][0][1];
+
+In this example, subarray has the value [[10, 11, 12], 13, 14]
+nestedSubarray has the value [10, 11, 12]
+and element has the value 11.
+
+There shouldn't be any spaces between the array name and the 
+square brackets, like array [0][0].
+*/
