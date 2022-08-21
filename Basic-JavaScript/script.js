@@ -163,3 +163,24 @@ If you replace var with let in the code above, it results in an error.
 The error can be seen in your browser console.
 So unlike var, when you use let, a variable with the same name can only be declared once.
 */
+
+// DECLARE A READ-ONLY VARIABLE WITH THE CONST KEYWORD
+
+const FAV_PET = "Cats";
+FAV_PET = "Dogs";
+
+/*
+The keyword let is not the only new way to declare variables.
+In ES6, you can also declare variables using the const keyword.
+
+const Has all the awsome features that let has, with the added
+bonus that variables declared using const are read-only.
+They are a constant value, wich means that once a variable is
+assigned with const, it cannot be reassigned.
+
+The consaole will display an error due to reassigning the value of FAV_PET.
+
+You should always name variables you don't want to reassign
+using the const keyword. This helps when you accidentally
+attempt to reassign a variable that is meant to stay constant.
+*/
