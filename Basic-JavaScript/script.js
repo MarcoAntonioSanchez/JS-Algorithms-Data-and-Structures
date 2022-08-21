@@ -393,3 +393,27 @@ For example:
 const goodStr = 'Jame asks FInn, "Hey, let\'s go on an adventure?"';
 const badStr = 'Fin responds, "Let's go!"';"
 */
+
+// SCAPE SEQUENCES IN STRINGS
+
+/*
+Quotes are not the only characters that can be scaped inside
+a string. There are two reasons to use scaping carachters:
+
+1. To allow you to use characters you may not otherwise be able
+to type out, such as a carriage return.
+
+2. To allow you to represent multiple quotes in a string without
+JavaScript misinterpretating what you mean.
+
+What we leanrned so far:
+
+\' singlo quote
+\" double quote
+\\ backslash
+\n newline
+\r carriage return
+\t tab
+\b word boundary
+\f form feed
+*/
