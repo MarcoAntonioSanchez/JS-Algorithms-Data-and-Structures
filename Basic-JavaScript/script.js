@@ -129,3 +129,37 @@ Write variable names in JavaScript in cameCase. In cameCase,
 multi-word variable names have the first word in lowercase
 and the first letter of each subsequent word is capitalized.
 */
+
+// EXPLORE DIFFERENCES BETWEEN THE VAR AND LET KEYWORDS
+
+var camper = "James";
+var camper = "David";
+console.log(camper);
+
+/*
+One of the biggest problems with declaring variables
+with the var keyword is that you can easily overwrite
+variable declarations.
+
+In the code above, the camper variable is originally
+declared as James, and is then overridden to be David.
+The console then displays the string David.
+
+In a small application, you might not run into this type
+of problem. But as your codebase becomes largers, you might
+accidentally overwrite a variable that you did not intend to.
+Because this behavios does not throw an error, searching
+for and fixing bigs becomes more difficult.
+*/
+
+let camper = "James";
+let camper = "David";
+
+/*
+A keyword called let was introduced in ES6, a major update to
+JavaScript, to solve this potential issue with the var keyword.
+
+If you replace var with let in the code above, it results in an error.
+The error can be seen in your browser console.
+So unlike var, when you use let, a variable with the same name can only be declared once.
+*/
