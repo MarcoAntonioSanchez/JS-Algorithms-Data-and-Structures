@@ -345,3 +345,21 @@ Will divide myVar by 5. This can be rewritten as:
 
 myVar /= 5;
 */
+
+// ESCAPING LITERAL QUOTES IN STRINGS
+
+/*
+When you are defining a string you must start and end with
+a single or double quite. What happens when you need a literal quote
+" or ' inside your string?.
+In JavaScript, you can scape a quote from considering it as an end
+of string quote byplacing a backslash \ in front of the quote.
+*/
+
+const sampleStr = 'Alan said, "Petter is learning JavaScript".';
+console.log(sampleStr);
+
+/*
+This signals to JavaScript that the following quote is not
+the end of the string, but should instead appear inside the string.
+*/
