@@ -719,3 +719,21 @@ ourArray3.shift();
 console.log(ourArray3);
 ourArray3.unshift("Happy");
 console.log(ourArray3);
+
+// WRITE REAUSABLE JAVASCRIPT WITH FUNCTIONS
+
+/*
+In JavaScript, we can divide up our code into reusable parts
+called functions.
+For example:
+
+function functionName() {
+    console.log("Hello friend...");
+}
+
+You can call or invoke this function by using its name followed by
+parentheses, like this: functionName();
+Each time the function is called it will print out the message
+Hello friend... on the dev console.
+All of the code between the curly braces will be excecuted every time the function is called.
+*/
