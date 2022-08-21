@@ -204,3 +204,13 @@ We can slo substract one number from another.
 JavaScript uses the - symbol for substraction.
 Now, myVar5 has the value of 6.
 */
+
+// MULTIPLY TWO NUMBERS WITH JAVASCRIPT
+
+const myVar6 = 13 * 13;
+
+/*
+We can also multiply one nomber by another.
+JavaScript uses the * symbol for multiplication of two numbers.
+Now, myVar6 has the value of 169.
+*/
