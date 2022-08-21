@@ -266,3 +266,24 @@ just like whole numbers.
 // DIVIDE ONE DECIMAL BY ANOTHER WITH JAVASCRIPT
 
 const product2 = 4.4 / 2.0;
+
+// FINDING A REMINDER IN JAVASCRIPT
+
+/*
+The remainder operator % gives the remainder of the division of two numbers.
+Example:
+5 % 2 = 1 because
+Math.floor(5 / 2 = 2) quotient
+2 * 2 = 4
+5 - 4 = 1 remainder
+
+Usage:
+In mathematics, a nunber can be checked to be even or odd
+by checking the remainder of the division of the number by 2.
+
+17 % 2 = 1 (17 is odd)
+48 % 2 = 0 (48 is even)
+
+The remainder operator is sometimes incorrectly to as the modulus operator.
+It is very similar to modulus, but does not work properly with negative numbers.
+*/
