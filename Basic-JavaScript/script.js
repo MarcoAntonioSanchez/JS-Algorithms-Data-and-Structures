@@ -88,3 +88,13 @@ in the same line as it is declared.
 The above creates a variable called myVar3 and assigns it
 an initial value of 0.
 */
+
+// DECLARE STRING VARIABLES
+
+var myName = "Marco A. Sánchez";
+
+/*
+Your name is called a string literal. A string literal, or string,
+is a series of zero or more characters enclosed in a single or
+double quotes.
+*/
