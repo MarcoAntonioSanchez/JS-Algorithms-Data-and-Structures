@@ -417,3 +417,17 @@ What we leanrned so far:
 \b word boundary
 \f form feed
 */
+
+// CONCATENATING STRINGS WITH PLUS OPERATOR
+
+/*
+In JavaScript, when the + operator us used with a string value,
+it is called the concatenation operator. You can build a new string
+out of other strings by concatenating them together.
+For example:
+
+'My name is Alan,' + ' I concatenate.'
+*/
+
+const ourStr = "I come first. " + "I come second.";
+console.log(ourStr);
