@@ -77,3 +77,14 @@ then assigns it the value 3. Next, a variable named myNum is declared
 with no value. Then, the contents of myVar2 (wich is 3) is assigned
 to the variable myNum. Now, myNUm also has the value of 5.
 */
+
+// INITIALIZING VARIABLES WITH THE ASSIGNMENT OPERATOR
+
+var myVar3 = 0;
+
+/*
+It is common to initilize a variable to and initial value
+in the same line as it is declared.
+The above creates a variable called myVar3 and assigns it
+an initial value of 0.
+*/
