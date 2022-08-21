@@ -98,3 +98,13 @@ Your name is called a string literal. A string literal, or string,
 is a series of zero or more characters enclosed in a single or
 double quotes.
 */
+
+// UNDERSTANDING UNITIALIZED VARIABLES
+
+/*
+When JavaScript variables are declared, they have an intial value of undefined.
+If you do a mathematical operation on a undefined variable
+your result will be NaN wich means "Not a Number".
+If you concatenate a string with an undefined variable,
+you will get a strinf of undefined.
+*/
