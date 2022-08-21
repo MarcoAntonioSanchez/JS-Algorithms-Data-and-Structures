@@ -702,3 +702,20 @@ const ourArray2 = ["Stimpson", "J", ["car"]];
 console.log(ourArray2);
 const removedFromOurArray = ourArray2.shift();
 console.log(removedFromOurArray);
+
+// MANIPULATE ARRAYS WITH UNSHIFHT()
+
+/*
+Not only can you shift elements off of the veginning of an array,
+you can also unshift elements to the beginning of an array.
+.unshift() WOrks exactly like .push(), but instead of adding
+the element at the end of the array, unshift() adds the element at the beginning of the array.
+For example:
+*/
+
+const ourArray3 = ["Stimpson", "J", "cat"];
+console.log(ourArray3);
+ourArray3.shift();
+console.log(ourArray3);
+ourArray3.unshift("Happy");
+console.log(ourArray3);
