@@ -514,3 +514,14 @@ For example:
 let myStr5 = "Bob";
 myStr = "Job";
 */
+
+// USE BRACKET NOTATION TO FIND THE NTH CHARACTER IN A STRING
+
+/*
+You can also use bracket notation to get the character
+is actually the zeroth character.
+*/
+
+const firstName2 = "Marco";
+const secondLetterOfFirstName = firstName2[1];
+console.log(secondLetterOfFirstName);
