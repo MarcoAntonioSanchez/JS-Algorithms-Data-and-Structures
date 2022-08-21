@@ -653,3 +653,22 @@ and element has the value 11.
 There shouldn't be any spaces between the array name and the 
 square brackets, like array [0][0].
 */
+
+// MANIPULATE ARRAYS WITH PUSH()
+
+/*
+An easy way to append data to the end of an array is via the
+push() function.
+.push() takes one or more parameters and "pushes" them onto the end of the array.
+For example:
+*/
+
+const arr1 = [1, 2, 3];
+console.log(arr1);
+arr1.push(4);
+console.log(arr1);
+
+const arr2 = ["Stimpson", "J", "cat"];
+console.log(arr2);
+arr2.push(["Happy", "joy"]);
+console.log(arr2);
