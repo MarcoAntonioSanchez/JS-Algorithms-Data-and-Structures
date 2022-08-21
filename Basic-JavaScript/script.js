@@ -525,3 +525,15 @@ is actually the zeroth character.
 const firstName2 = "Marco";
 const secondLetterOfFirstName = firstName2[1];
 console.log(secondLetterOfFirstName);
+
+// USE BRACKET NOTATION TO FIND THE LAST CHARACTER IN A STRING
+
+/*
+In order to get the last letter of a string, you can subtract one from the string's lenght.
+For example, if const firstName = "Ada", you can get the value of the
+last letter of the string by using: firstName[irstName.lenght - 1].
+*/
+
+const firstName3 = "Marco";
+const lastLetter = firstName3[firstName3.length - 1];
+console.log(lastLetter);
