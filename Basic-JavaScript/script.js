@@ -672,3 +672,18 @@ const arr2 = ["Stimpson", "J", "cat"];
 console.log(arr2);
 arr2.push(["Happy", "joy"]);
 console.log(arr2);
+
+// MANIPULATE ARRAYS WITH POP()
+
+/*
+Another way to change the data in an arrai is with the .pop() function.
+.pop() Is used to pop a value off of the end of an array. We can store this popped off value
+by assigning it to a variable. In other words, .pop() removes the last element from an array and returns that element.
+Any type of entry can be popped off of an array - numbers, strings, even nested arrays.
+For example:
+*/
+
+const threeArr = [1, 4, 6];
+const oneDown = threeArr.pop();
+console.log(oneDown);
+console.log(threeArr);
