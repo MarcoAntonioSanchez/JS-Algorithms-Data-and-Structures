@@ -253,3 +253,12 @@ Decimal numbers are sometimes referred to as floating point numbers or floeats.
 When you compute numbers, they are computed with infinite precision.
 Operations using floating points may lead to different results than the desired outcome.
 */
+
+// MULTIPLY TWO DECIMALS WITH JAVASCRIPT
+
+const product = 2.0 * 2.5;
+
+/*
+In JavaScript, youy can also perform calculations with decimal numbers,
+just like whole numbers.
+*/
