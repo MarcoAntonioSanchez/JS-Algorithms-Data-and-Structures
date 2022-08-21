@@ -184,3 +184,13 @@ You should always name variables you don't want to reassign
 using the const keyword. This helps when you accidentally
 attempt to reassign a variable that is meant to stay constant.
 */
+
+// ADD TWO NUMBERS WITH JAVASCRIPT
+
+const myVar4 = 5 + 10;
+
+/*
+Number is a data type in JavaScript wich represents numeric data.
+JavaScript uses the + symbol as an addition operator when placed between two numbers.
+nOW, myVar4 has the value of 15.
+*/
