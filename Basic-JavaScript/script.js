@@ -804,10 +804,33 @@ function myTest() {
 }
 
 myTest();
-console.log(loc);
+// console.log(loc);
 
 /*
 The myTest() function call will display the string foo in the console.
 The console.log(loc) line (outside of the myTest function) will throw
 an error, as loc is not defined outside of the function.
+*/
+
+// GLOBAL VS LOCAL SCOPE IN FUNCTIONS
+
+/*
+It is possible to have both local and global variables with the same name.
+When you do this, the local variable takes precedence over the global variable.
+
+In this example:
+*/
+
+const someVar = "Hat";
+
+function myFun2() {
+  const someVar = "Head";
+  return someVar;
+}
+
+console.log(myFun2());
+
+/*
+The function myFun2 will return the string Head
+because the local version of the variable is present.
 */
