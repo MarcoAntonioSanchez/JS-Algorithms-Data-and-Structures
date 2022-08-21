@@ -443,3 +443,14 @@ to break a long string over several lines.
 let ourStr2 = "I come first. ";
 ourStr2 += "I come second.";
 console.log(ourStr2);
+
+// CONSTRUCTING STRINGS WITH VARIABLES
+
+/*
+Sometimes you will need to build a string. By using the concatenation operator
+(+), you can insert one or more variables into a string you're building.
+*/
+
+const ourName2 = "freeCodeCamp";
+const ourStr3 = "Hello, our name is " + ourName2 + ", how are you?";
+console.log(ourStr3);
