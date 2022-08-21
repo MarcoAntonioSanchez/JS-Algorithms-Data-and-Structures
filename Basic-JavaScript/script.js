@@ -224,3 +224,13 @@ We can also divide one number by another.
 JavaScript uses the / symbol for division.
 Now, myVar7 has the value of 8.
  */
+
+// INCREMENT A NUMBER WITH JAVASCRIPT
+
+/*
+i++;
+i = i + 1;
+
+You can easily increment or add one to a variable with the ++ oeprator.
+The entire line becomes i++, eliminating the need fot the equal sign.
+*/
