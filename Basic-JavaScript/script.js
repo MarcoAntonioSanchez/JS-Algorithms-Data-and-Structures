@@ -194,3 +194,13 @@ Number is a data type in JavaScript wich represents numeric data.
 JavaScript uses the + symbol as an addition operator when placed between two numbers.
 nOW, myVar4 has the value of 15.
 */
+
+// SUBSTRACT ONE NUMBER FROM ANOTHER WITH JAVASCRIPT
+
+const myVar5 = 12 - 6;
+
+/*
+We can slo substract one number from another.
+JavaScript uses the - symbol for substraction.
+Now, myVar5 has the value of 6.
+*/
