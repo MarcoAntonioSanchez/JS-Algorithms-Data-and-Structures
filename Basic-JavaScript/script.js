@@ -363,3 +363,33 @@ console.log(sampleStr);
 This signals to JavaScript that the following quote is not
 the end of the string, but should instead appear inside the string.
 */
+
+// QUOTING STRINGS WITH SINGLE QUOTES
+
+/*
+String values in JavaScript may be written with single
+or double quotes, as long as you start and end with the same
+type of quote. Unlike some other programming lenguages,
+single and double quotes work the same in JavaScript.
+*/
+
+const doubleQuoteStr = "This is a string";
+const singleQuoteStr = "THis is also a string";
+
+/*
+The reason why you might want to use one type of quote over
+the another is if you want to use both in a string.
+*/
+
+const conversation = 'Finn exclaims to Jake, "Algebaic!"';
+
+/*
+However, this becomes a problem if you need to use the outermost
+quotes within it. Remember, a string has the same kind of quote
+at the beginning and end. Bit if you have that same quote
+somewhere in the middle, the string will stop early and throw an error.
+For example:
+
+const goodStr = 'Jame asks FInn, "Hey, let\'s go on an adventure?"';
+const badStr = 'Fin responds, "Let's go!"';"
+*/
