@@ -687,3 +687,18 @@ const threeArr = [1, 4, 6];
 const oneDown = threeArr.pop();
 console.log(oneDown);
 console.log(threeArr);
+
+// MANIPULATE ARRAYS WITH SHIFT()
+
+/*
+pop() Always removes the last element of an array.
+What if you want to remove the first?
+That's where .shift() comes in. It works just like .pop(),
+except it removes the first element instead of the last.
+For example:
+*/
+
+const ourArray2 = ["Stimpson", "J", ["car"]];
+console.log(ourArray2);
+const removedFromOurArray = ourArray2.shift();
+console.log(removedFromOurArray);
