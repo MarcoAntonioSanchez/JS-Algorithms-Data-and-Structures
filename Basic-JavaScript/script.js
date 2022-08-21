@@ -454,3 +454,15 @@ Sometimes you will need to build a string. By using the concatenation operator
 const ourName2 = "freeCodeCamp";
 const ourStr3 = "Hello, our name is " + ourName2 + ", how are you?";
 console.log(ourStr3);
+
+// APPENING VARIABLES TO STRINGS
+
+/*
+Just as we can build a string over multiple lines our of string literals,
+we can also append variables to a string using the plus equals (+=) operator.
+*/
+
+const anAdjective = "awesome!";
+let ourStr4 = "freeCodeCamp is ";
+ourStr4 += anAdjective;
+console.log(ourStr4);
