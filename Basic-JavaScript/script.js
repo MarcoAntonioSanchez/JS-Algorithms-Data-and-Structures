@@ -613,3 +613,15 @@ const array = [50, 60, 70];
 console.log(array[0]);
 const data = array[1];
 console.log(data);
+
+// MODIFY ARRAY DATA WITH INDEXES
+
+/*
+Unlike strings, the entries of arrays are mutable and can be
+changed freely, even if the array was declared with const.
+For example:
+*/
+
+const ourArray = [50, 40, 30];
+ourArray[0] = 15;
+console.log(ourArray);
