@@ -596,3 +596,20 @@ const teams = [
   ["White Sox", 45],
 ];
 console.log(teams);
+
+// ACCESS ARRAY DATA WITH INDEXES
+
+/*
+We can access the data inside arrays using indexes.
+Array indexes are written in the same bracket notation that
+strings use, except that instead of specifying a character,
+the are specifying an entry in the array. LIke strings,
+arrays use zeo-based indexing, so the first element in an arra
+has an index of 0.
+For example:
+*/
+
+const array = [50, 60, 70];
+console.log(array[0]);
+const data = array[1];
+console.log(data);
