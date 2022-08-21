@@ -431,3 +431,15 @@ For example:
 
 const ourStr = "I come first. " + "I come second.";
 console.log(ourStr);
+
+// CONCATENATING STRINGS WITH THE PLUS EQUALS OPERATOR
+
+/*
+Wen can also use the += operator to concatenate a string onto
+the end of an existing string variable. This can be very helpful
+to break a long string over several lines.
+*/
+
+let ourStr2 = "I come first. ";
+ourStr2 += "I come second.";
+console.log(ourStr2);
