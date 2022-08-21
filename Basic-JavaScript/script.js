@@ -583,3 +583,16 @@ For example:
 
 const sandwich = ["peanut butter", "jelly", "bread"];
 console.log(sandwich);
+
+// NEST ONE ARRAY WITHIN ANOTHER ARRAY
+
+/*
+You can also nest arrays within anothe arrays.
+For example:
+*/
+
+const teams = [
+  ["Bulls", 23],
+  ["White Sox", 45],
+];
+console.log(teams);
