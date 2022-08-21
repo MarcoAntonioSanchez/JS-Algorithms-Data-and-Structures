@@ -306,3 +306,16 @@ there are operator wich do both a mathematical operation and assignment in one s
 let myVar9 = 1;
 myVar9 += 5;
 console.log(myVar9);
+
+// COMPOUND ASSIGNMENT WITH AUGMENTED SUBSTRACTION
+
+/*
+Like the += operator, -= substracts a number from a variable.
+Example:
+
+myVar = myVar - 5;
+
+Will substract 5 from myVar. This can be rewritten as:
+
+myVar -= 5;
+*/
