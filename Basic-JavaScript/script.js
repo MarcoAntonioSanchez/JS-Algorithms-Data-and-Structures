@@ -466,3 +466,18 @@ const anAdjective = "awesome!";
 let ourStr4 = "freeCodeCamp is ";
 ourStr4 += anAdjective;
 console.log(ourStr4);
+
+// FIND THE LENGHT OF A STRING
+
+/*
+You can find the lenght of a string value by writing
+.lenght after the string variable or string literal.
+*/
+
+console.log("Alan Peter".length);
+
+/*
+The value 10 would be displayed in the console.
+Note that the space carachter between "Alan and "Peter"
+is also counted.
+*/
