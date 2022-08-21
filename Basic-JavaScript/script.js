@@ -571,3 +571,15 @@ const sentence2 =
   "silly" +
   ".";
 console.log(sentence2);
+
+// STORE MULTIPLE VALUES IN ONE VARIABLE USING JAVASCRIPT ARRAYS
+
+/*
+With JavaScript array variables, we can store several pieces of data in one place.
+You start an array declaration with an opening square bracket, end it with a closing square bracket,
+and put a comma between each entry.
+For example:
+*/
+
+const sandwich = ["peanut butter", "jelly", "bread"];
+console.log(sandwich);
