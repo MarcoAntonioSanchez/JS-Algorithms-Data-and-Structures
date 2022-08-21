@@ -332,3 +332,16 @@ Will multiply myVar by 5. This can be rewritten as:
 
 myVar *= 5;
 */
+
+// COMPOUND ASSIGNMENT WITH AUGMENTED DIVISION
+
+/*
+The /= operator divides a variable by another number.
+Example:
+
+myVar = myVar / 5;
+
+Will divide myVar by 5. This can be rewritten as:
+
+myVar /= 5;
+*/
