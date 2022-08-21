@@ -108,3 +108,24 @@ your result will be NaN wich means "Not a Number".
 If you concatenate a string with an undefined variable,
 you will get a strinf of undefined.
 */
+
+// UNDERSTANDING CASE SENSITIVITY IN VARIABLES
+
+var someVariable;
+var anotherVariableName;
+var thisVariableNameIsLong;
+
+/*
+In JavaScript all variables and function names are case sensitive.
+This means that capitalization matters.
+
+MYVAR is not the same as MyVar or myvar. It is possible to have muyltiple
+distinct variables with the same name but different casing.
+It is strongly recommended that for the sake of clarity,
+you do not use this lenguage feature.
+
+Best practice:
+Write variable names in JavaScript in cameCase. In cameCase,
+multi-word variable names have the first word in lowercase
+and the first letter of each subsequent word is capitalized.
+*/
