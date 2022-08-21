@@ -747,14 +747,31 @@ When a function is defined, it is typically defined along with
 one or more parameters. The actual values that are input (or passed)
 into a function wehn it is called are known as arguments.
 Here is a function with two parameters, param1 and param2:
+*/
 
 function testFun(param1, param2) {
-    console.log(param1, param2);
+  console.log(param1, param2);
 }
 
-testFUn("Hello", "World");
-
+/*
 Then we can call testFun like this: testFun("Hello", "World");.
 We have passed two strings arguments, Hello and World inside the function,
 param1 will equal the string Hello and param2 will equal the string World.
 */
+
+testFun("Hello", "World");
+
+// RETURN A VALUE FROM A FUNCTION WITH RETURN
+
+/*
+We can pass values into a function with arguments.
+You can use a return statement to send a value back out of a function.
+For example:
+*/
+
+function plusThree(num) {
+  return num + 3;
+}
+
+const answer = plusThree(5);
+console.log(answer);
