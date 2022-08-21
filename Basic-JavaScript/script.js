@@ -319,3 +319,16 @@ Will substract 5 from myVar. This can be rewritten as:
 
 myVar -= 5;
 */
+
+// COMPOUND ASSIGNMENT WITH AUGMENTED MULTIPLICATION
+
+/*
+The *= operator multiplies a variable by a number.
+Example:
+
+myVar = myVar * 5;
+
+Will multiply myVar by 5. This can be rewritten as:
+
+myVar *= 5;
+*/
