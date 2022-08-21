@@ -775,3 +775,16 @@ function plusThree(num) {
 
 const answer = plusThree(5);
 console.log(answer);
+
+// GLOBAL SCOPE AND FUNCTIONS
+
+/*
+In JavaScript, scope refers to the visibility of variables.
+Variables wich are defined outside of a function block have
+Global scope. This means, they can be seen everywhere in your JavaScript code.
+
+Variables wich are declared without the let or const keywords are
+automatically created in global scope. This can create unintended
+consequences elsewhere in your code or when running a function again.
+You should always declare your variables with let or const.
+*/
