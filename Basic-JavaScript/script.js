@@ -214,3 +214,13 @@ We can also multiply one nomber by another.
 JavaScript uses the * symbol for multiplication of two numbers.
 Now, myVar6 has the value of 169.
 */
+
+// DIVIDE ONE NUMBER BY ANOTHER WITH JAVASCRIPT
+
+const myVar7 = 16 / 2;
+
+/*
+We can also divide one number by another.
+JavaScript uses the / symbol for division.
+Now, myVar7 has the value of 8.
+ */
