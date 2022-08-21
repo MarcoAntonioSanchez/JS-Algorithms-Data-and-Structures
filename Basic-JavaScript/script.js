@@ -537,3 +537,14 @@ last letter of the string by using: firstName[irstName.lenght - 1].
 const firstName3 = "Marco";
 const lastLetter = firstName3[firstName3.length - 1];
 console.log(lastLetter);
+
+// USE BRACKET NOTATION TO FIND THE NTH-TO-LAST CHARACTER IN A STRING
+
+/*
+You can use the same principle we just used to retireve the
+last character in a string to retrieve the nth-to-last character.
+*/
+
+const firstName4 = "Marco";
+const thirdToLastLetter = firstName4[firstName4.length - 3];
+console.log(thirdToLastLetter);
