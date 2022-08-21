@@ -63,3 +63,17 @@ First, this code creates a variable named myVar.
 Then, the codes assigns 7 to myVa. Now, if myVar appears
 again in the code, the program will treat it as if it is 7.
 */
+
+// ASSIGN THE VALUE OF ONE VARIABLE TO ANOTHER
+
+var myVar2;
+myVar2 = 3;
+var myNum;
+myNum = myVar2;
+
+/*
+The above declares a myVar2 variable with no value,
+then assigns it the value 3. Next, a variable named myNum is declared
+with no value. Then, the contents of myVar2 (wich is 3) is assigned
+to the variable myNum. Now, myNUm also has the value of 5.
+*/
