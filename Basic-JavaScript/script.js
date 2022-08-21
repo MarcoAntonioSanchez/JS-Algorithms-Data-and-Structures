@@ -262,3 +262,7 @@ const product = 2.0 * 2.5;
 In JavaScript, youy can also perform calculations with decimal numbers,
 just like whole numbers.
 */
+
+// DIVIDE ONE DECIMAL BY ANOTHER WITH JAVASCRIPT
+
+const product2 = 4.4 / 2.0;
