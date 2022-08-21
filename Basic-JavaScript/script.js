@@ -244,3 +244,12 @@ i = i - 1;
 You can easily decrement or decrease a variable by one with the -- operator.
 The entire line becomes i--;, eliminating the need for the equal sign.
 */
+
+// CREATE DECIMAL NUMBERS WITH JAVASCRIPT
+
+/*
+We can store decimal numbers in variables too.
+Decimal numbers are sometimes referred to as floating point numbers or floeats.
+When you compute numbers, they are computed with infinite precision.
+Operations using floating points may lead to different results than the desired outcome.
+*/
