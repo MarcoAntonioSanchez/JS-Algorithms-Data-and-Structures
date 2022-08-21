@@ -152,8 +152,8 @@ Because this behavios does not throw an error, searching
 for and fixing bigs becomes more difficult.
 */
 
-let camper = "James";
-let camper = "David";
+// let camper = "James";
+// let camper = "David";
 
 /*
 A keyword called let was introduced in ES6, a major update to
@@ -167,7 +167,7 @@ So unlike var, when you use let, a variable with the same name can only be decla
 // DECLARE A READ-ONLY VARIABLE WITH THE CONST KEYWORD
 
 const FAV_PET = "Cats";
-FAV_PET = "Dogs";
+// FAV_PET = "Dogs";
 
 /*
 The keyword let is not the only new way to declare variables.
@@ -267,7 +267,7 @@ just like whole numbers.
 
 const product2 = 4.4 / 2.0;
 
-// FINDING A REMINDER IN JAVASCRIPT
+// FINDING A REMAINDER IN JAVASCRIPT
 
 /*
 The remainder operator % gives the remainder of the division of two numbers.
@@ -287,3 +287,22 @@ by checking the remainder of the division of the number by 2.
 The remainder operator is sometimes incorrectly to as the modulus operator.
 It is very similar to modulus, but does not work properly with negative numbers.
 */
+
+// COMPOUND ASSIGNMENT WITH AUGMENTED ADDITION
+
+/*
+In programming, it is common to use assignments to modify the contents
+of a variable. Remember that everything to the right of the equals
+sign is evaluated first, so we can say:
+*/
+
+// let myVar8 = myVar8 + 5;
+
+/*
+To add 5 to myVar8. SInce this is such a common pattern,
+there are operator wich do both a mathematical operation and assignment in one step.
+*/
+
+let myVar9 = 1;
+myVar9 += 5;
+console.log(myVar9);
