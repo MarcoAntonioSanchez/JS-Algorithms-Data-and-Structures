@@ -737,3 +737,24 @@ Each time the function is called it will print out the message
 Hello friend... on the dev console.
 All of the code between the curly braces will be excecuted every time the function is called.
 */
+
+// PASSING VALUES TO FUNCTIONS WITH ARGUMENTS
+
+/*
+Parameters are variables that act as placeholders for the values
+that are to be inpuyt to a function when it is called.
+When a function is defined, it is typically defined along with
+one or more parameters. The actual values that are input (or passed)
+into a function wehn it is called are known as arguments.
+Here is a function with two parameters, param1 and param2:
+
+function testFun(param1, param2) {
+    console.log(param1, param2);
+}
+
+testFUn("Hello", "World");
+
+Then we can call testFun like this: testFun("Hello", "World");.
+We have passed two strings arguments, Hello and World inside the function,
+param1 will equal the string Hello and param2 will equal the string World.
+*/
