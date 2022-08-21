@@ -493,3 +493,24 @@ like humans do. They start at 0. This is referred to as Zero-based indexing.
 const firstName = "Marco";
 const firstLetter = firstName[0];
 console.log(firstLetter);
+
+// UNDERSTAND STRING IMMUTABILITY
+
+/*
+In JavaScript, string values are immutable, wich means that they cannot
+be altered once created.
+For example:
+
+let myStr5 = "Bob";
+myStr[0] = "J";
+
+Cannot change the value of myStr5 to Job, beacuse the contents
+of myStr5 cannot be altered.
+Note that this does not mean that myStr5 cannot be changed, just the individual characters
+of a string literal cannot be changed. The only way to change
+myStr5 would be to assign it with a new string.
+For example:
+
+let myStr5 = "Bob";
+myStr = "Job";
+*/
