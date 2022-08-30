@@ -925,3 +925,41 @@ When test is called with a value of true, the if statement evaluates myCondition
 or not. SInce it is true, the function returns "It was true". When we call test with a value of false,
 myCondition is not true and the statement in the curly braces is not executed and the function returns "It was false".
 */
+
+// COMPARISON WITH THE EQUALITY OPERATOR
+
+/*
+There are many comparison operators in JavaScript.
+ALl is these operators return a boolean true or false value.
+
+The most basic operator is the equality operator ==.
+The equality operator compares two values and returns true if they're equivalent or
+false if they are not.
+
+Note that equality is different from assignment (=), wich assigns the value on the right
+of theoperator to a variable on the left.
+
+For example:
+*/
+
+function equalityTest(myVal) {
+  if (myVal == 10) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+console.log(equalityTest(10));
+
+/*
+If myVal is equal to 10, the equality operator returns true, so the code in the curly braces
+will execute, and the function will return Equal. Otherwise, the function will return Not Equal.
+In order for JavaScript to compare two different data types (for example, numbers and strings),
+it must convert one type to another.
+This is known as type coercion. Once it does, however, it can compare terms as follows:
+
+1 == 1 // true
+1 == 2 // false
+1 == '1' // true
+"3" == 3 // true
+*/
