@@ -963,3 +963,21 @@ This is known as type coercion. Once it does, however, it can compare terms as f
 1 == '1' // true
 "3" == 3 // true
 */
+
+// COMPARISON WITH THE STRICT EQUALITY OPERATOR
+
+/*
+Strict equality (===) is the counterpart to the equality operator (==).
+However, unlike the equality operator, wich attempts to convert both values breign compared
+to a common type, the strict equality operator does not perform a type conversion.
+
+If the valyes beign compared have different types, they are considered unequal, and the
+strict equlity operator will return false.
+
+For example:
+
+3 === 3 // true
+3 === '3' // false
+
+In the second example, 3 is a number type and '3' is a string type.
+*/
