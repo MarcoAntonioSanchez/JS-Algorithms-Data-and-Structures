@@ -879,3 +879,14 @@ wich returns a value of 17 and assign it to the ourSum variable.
 In computer science a queue is an abstract data structure where items are kept in order.
 New items can be added at the back of the queue and old itmes are taken off from the front of the queue.
 */
+
+// UNDERSTANDING BOOLEAN VALUES
+
+/*
+Another data type is the boolean.
+Booleans may only be one of two values: true or false.
+They are basically little on-off switches, where true is on and false is off.
+These two states are mutually exclusive.
+
+Boolean values are never written with quotes.
+*/
