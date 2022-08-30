@@ -997,3 +997,17 @@ Examples:
 1 != true // false
 1 != false // false
 */
+
+// COMPARISON WITH THE STRICT INEQUALITY OPERATOR
+
+/*
+The strict inequality operator (!==) is the logical opposite of the strict equality operator.
+It means "Stricktly Not Equal" and returns false where strict equality would return true and vice versa.
+The strict inequality operator will not conver data types.
+
+Examples:
+
+3 !== 3 // false
+3 !== '3' // true
+4 !== 3 // true
+*/
