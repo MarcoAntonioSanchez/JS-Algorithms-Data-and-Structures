@@ -1103,3 +1103,28 @@ if (num > 5 && num < 10) {
 }
 return "No";
 */
+
+// COMPARISONS WITH THE LOGICAL OR OPERATOR
+
+/*
+The logical or operator (||). THis can typically be found between your backspace
+and enter keys.
+
+The pattern below should look familiar from prior waypoints:
+
+if (num > 10 ) {
+  return "No";
+}
+if (num < 5) {
+  return "No";
+}
+return "Yes";
+
+WIll return Yes only if num is between 5 and 10 (5 and 10 included).
+The same logic can be written as:
+
+if (num > 10 || num < 5) {
+  return "No";
+}
+return "Yes";
+*/
