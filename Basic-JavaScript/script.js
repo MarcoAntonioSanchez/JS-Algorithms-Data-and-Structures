@@ -1011,3 +1011,21 @@ Examples:
 3 !== '3' // true
 4 !== 3 // true
 */
+
+// COMPARISON WITH THE GREATER THAN OPERATOR
+
+/*
+The greater than operator (>) compares the values of teo numbers.
+If the number to the left is greater than the number to the right, it returns true.
+Otherwise, it returns false.
+
+Liek the equality operator, the grater than operator will convert data types of values
+while comparing.
+
+Examples:
+
+5 > 3 // true
+7 > '3' // true
+2 > 3 // false
+'1' > 9 // false 
+*/
