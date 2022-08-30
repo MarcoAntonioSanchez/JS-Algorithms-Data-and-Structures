@@ -834,3 +834,27 @@ console.log(myFun2());
 The function myFun2 will return the string Head
 because the local version of the variable is present.
 */
+
+// UNDERSTANDING INDEFINED VALUE RETURNED FROM A FUNCTION
+
+/*
+A function can include the return statement but it does not have to.
+In the case that the function doen's have a return statement, when you call it,
+the function processes the inner code but the returned value is undefined.
+
+For example:
+*/
+
+let sum = 0;
+
+function addSum(num) {
+  sum = sum + num;
+}
+
+addSum(3);
+
+/*
+addSUm is a function without a return statement.
+The function will change the global sum variable
+but the returned value of the function is undefined.
+*/
