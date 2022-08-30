@@ -1029,3 +1029,20 @@ Examples:
 2 > 3 // false
 '1' > 9 // false 
 */
+
+// COMPARISON WITH THE GREATER THAN OR EQUAL TO OPERATOR
+
+/*
+The greater than or equal to operator (>=) compares the values of two numbers.
+If the number to the left is greater than or equal to the number to the right,
+it returns true. Otherwise, it returns false.
+
+Liek the equality operator, the greater than or equal to operator will convert data types while comparing.
+
+Examples:
+
+6 >= 6 // true
+7 >= '3' // true
+2 >= 3 // false
+'7' >= 9 // false
+*/
