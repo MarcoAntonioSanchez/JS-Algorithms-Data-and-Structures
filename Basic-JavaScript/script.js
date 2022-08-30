@@ -981,3 +981,19 @@ For example:
 
 In the second example, 3 is a number type and '3' is a string type.
 */
+
+// COMPARISON WITH THE INEQUALITY OPERATOR
+
+/*
+The inequality operator (!=) is the opposite of the equality operator.
+It means not equal and returns false where equality would return true and vice versa.
+Like the equality operator, the inequality operator will convert data types of values while comparing.
+
+Examples:
+
+1 != 2 // true
+1 != "1" // false
+1 != '1' // false
+1 != true // false
+1 != false // false
+*/
