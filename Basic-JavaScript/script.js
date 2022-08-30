@@ -835,7 +835,7 @@ The function myFun2 will return the string Head
 because the local version of the variable is present.
 */
 
-// UNDERSTANDING INDEFINED VALUE RETURNED FROM A FUNCTION
+// UNDERSTANDING UNDEFINED VALUE RETURNED FROM A FUNCTION
 
 /*
 A function can include the return statement but it does not have to.
@@ -857,4 +857,18 @@ addSum(3);
 addSUm is a function without a return statement.
 The function will change the global sum variable
 but the returned value of the function is undefined.
+*/
+
+// ASSIGNMENT WITH A RETURNED VALUE
+
+/*
+Everything to the right of the equal sign is resolved before the value is assigned.
+This means we can take the return value of a function and assign it to a variable.
+
+Assume we have pre defined a function sum, wich adds two numbers together, then:
+
+ourSum = sum(5, 12);
+
+We call the sum function,
+wich returns a value of 17 and assign it to the ourSum variable.
 */
