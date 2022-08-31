@@ -1195,3 +1195,22 @@ console.log(bar(0));
 While these two functions look nearly identical if we pass a number to both
 we get different outputs.
 */
+
+// CHAINING IF ELSE STATEMENTS
+
+/*
+if/else Statements can be chaned together for complex logic.
+Here is pseudocode of multiple chained if/else if statements:
+
+if (condition) {
+  statement 1
+} else if (condition2) {
+  statement 2
+} else if (condition3) {
+  statement 3
+  ...
+} else {
+  statementN
+}
+
+*/
